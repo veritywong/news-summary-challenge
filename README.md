@@ -1,3 +1,10 @@
+# Setting up the project:
+nvm use node
+npm install -g jest esbuild
+npm init -y
+npm install jest-environment-jsdom
+npm install --save jest-fetch-mock
+
 # News challenge
 
 * Feel free to use Google, your notes, books, etc. but work on your own.
